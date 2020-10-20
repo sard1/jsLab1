@@ -1,16 +1,16 @@
-let name = "Mitch Cuckovich";
+let name = "Joseph Sardashti";
 
-let age = 25;
+let age = 28;
 
-let birthday = "January 24";
+let birthday = "January 13";
 
 let detroitGC = true;
 
 let lifeEvents = [
-  "I was born in Troy, Michigan.", 
-  "I went to Hope College", 
-  "I went to Junior Olympics when I was 10 years old. I placed 14th in the nation in the 800 meter event.",
-  "I'm a graduate of the front-end bootcamp."
+  "I was born in Bartlesville, Oklahoma", 
+  "I went to University of Oklahoma", 
+  "I released my first 12in record in November 2018.",
+  "I started working for my favorite synthesizer company in 2019."
 ]
 
 if(detroitGC=true){
@@ -27,7 +27,7 @@ for(let i=0; i<lifeEvents.length; i++){
 let counter = 0;
 
 while(true){
-  let randomNumber = (Math.floor(Math.random() * (11) + 1))
+  let randomNumber = (Math.floor(Math.random() * (10) + 1))
   if(randomNumber!==5) {
     counter++;
     console.log(`${randomNumber} !==5`);

@@ -1,5 +1,4 @@
 let hours = prompt ("How many hours did you work?")
-
 let wage = prompt ("What is your hourly wage?")
 
 if(hours>40){
@@ -17,8 +16,7 @@ else{
 weeks = 0;
 
 while(true){
-  
-  if(totalPay*weeks<=1000000){  
+  if(totalPay*weeks<1000000){  
   weeks++;
   }
   else{
